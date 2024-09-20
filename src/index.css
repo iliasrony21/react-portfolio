@@ -1,0 +1,15 @@
+/* Add general styles */
+#navigation li a {
+  color: #000; /* Default link color */
+  text-decoration: none;
+}
+
+#navigation li a:hover {
+  color: #cf8154; /* Hover color */
+}
+
+#navigation li a.active-link {
+  color: #ff6600 !important; /* Force active link color */
+  font-weight: bold;
+}
+
